@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <title>PortDev</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logoTipo menuNav">
+          <h1>{port<span>devs}</span></h1>
+        </div>
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="#projetos"><li>Projetos</li></a>
+          <a href="#"><li>Contato</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="logoTipo" id="buscaRepoLogo">
+        <h1>{port<span>devs}</span></h1>
+        <p>Crie agora mesmo seu portfólio GitHub</p>
+      </div>
+      <form class="formularioGitHub" id="formGitHub">
+        <input
+          type="search"
+          class="inputGitUser"
+          placeholder="ex: ecerdev"
+          required
+        />
+        <div class="buttons" form="formGitHub">
+          <button class="button btnPesquisar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </form>
+
+      <div class="boxUserInfo">
+        <div>
+          <p class="helloUser">Olá, eu me chamo</p>
+          <h4 class="userInfo"></h4>
+          <div class="userBtnContato">
+            <a href="" target="_blank" class="btnAcessoGit"
+              ><i class="fa-brands fa-github-alt"></i> GitHub</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="" class="userImg" />
+        </div>
+      </div>
+      <div class="boxRepositorio">
+        <h1>Meus Projetos</h1>
+        <div class="cardProjetos" id="projetos"></div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p>
+          Desenvolvido por
+          <a href="https://www.linkedin.com/in/erick-cerqueira/" target="_blank"
+            >Erick Cerqueira</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/f8c213ff99.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
