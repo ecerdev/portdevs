@@ -14,7 +14,7 @@
 <br>
 
 <p align="center" style="display: flex; gap: 10px; align-itemns: center; width: 100%">
-  <img alt="portdevs" src=".github/mobile.png" width="auto">
+  <img alt="portdevs" src=".github/mobile.png" width="50%">
   <img alt="portdevs" src=".github/desktop.png" width="auto">
 </p>
 
